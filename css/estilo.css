@@ -15,10 +15,37 @@ body {
 	background-color: #F7b600;
 	padding: 15px ;
 	text-align: center;
+	
 }
 
 #area-logo, #area-menu {
 	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0px auto;
+}
+#area-postagem {
+	width: 660px;
+	float: left ;
+}
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+#area-rodape {
+	clear: both;
+	background: #CCC;
+	text-align: center;
+	padding: 15px;
 }
 
 /*Formatações Menu */
@@ -27,7 +54,7 @@ a {
 }
 
 a:link, a:visited {
-	color: #fff;
+	color: #FFF;
 	padding: 8px 12px;
 }
 
@@ -41,7 +68,7 @@ a:hover {
 /* Formatações gerais */
 
 h1 {
-	color: 4e4e4e;
+	color: #4e4e4e;
 	font-size: 2.5em;	
 }
 .branco {
