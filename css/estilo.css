@@ -54,28 +54,27 @@ body {
 	text-align: center;
 	padding: 15px;
 }
-#area-rodape a, a:link, a:visited {
-	text-decoration: none;
-	color: green;
-}
 
 /*Formatações Menu */
 a {
-	text-decoration: none;
+	text-decoration: none;	
 }
 
 a:link, a:visited {
 	color: #f7b600;
 }
+
 a:hover {
-text-decoration: underline;
+	text-decoration: underline;
 }
-#area-cabecalho a:link, a:visited {
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
 	color: #FFF;
 	padding: 8px 12px;
 }
+
 #area-cabecalho a:hover {
-	color: #F7b600;
+	color: #f7b600;
 	background: #FFF;
 	text-decoration: none;
 }
